@@ -2,6 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 body {
@@ -14,6 +15,7 @@ body {
 }
 h2 {
     margin-bottom: 1rem;
+    color: slategray;
 }
 #cat-here {
     display: flex;

@@ -3,7 +3,7 @@ const ourURL= "https://aws.random.cat/meow";
 const catDiv =document.getElementById("cat-here");
 
 function printObjekt(obj) {
-    console.log(obj.file);
+    console.log(obj.file)
 
     const catImg=document.createElement("img");
     catImg.src=obj.file;
