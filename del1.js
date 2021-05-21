@@ -23,10 +23,10 @@ function add(x, y) {
 // --------------4----------------
 
 function A(x) {
-    addResult=x; 
+    addResult=x(10, 100); 
     console.log(addResult); 
 }
-A(add(10, 100));
+A(add);
 
 // --------------5----------------
 
